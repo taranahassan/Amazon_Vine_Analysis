@@ -19,9 +19,11 @@ Using the filtered DataFrame above, we are able to establish a total number of r
   ![paid_reviews](https://user-images.githubusercontent.com/75437852/114811068-68387200-9d7b-11eb-9df3-914f6aaa9012.PNG)![unpaid_reviews](https://user-images.githubusercontent.com/75437852/114811079-6f5f8000-9d7b-11eb-9331-bc8622d0b198.PNG)
 <br>
   2.  About 41% of all Vine reviews received 5 star ratings, which is 510 reviews part of the Vine program <br>
+   
   ![vine_star_rating](https://user-images.githubusercontent.com/75437852/114890865-656c6a00-9dd9-11eb-8a72-a36508140bfe.PNG)![paid_percentage](https://user-images.githubusercontent.com/75437852/114890948-75844980-9dd9-11eb-8703-8981e206c667.PNG)
 <br>
   3.  Approximately 43% of all non Vine reviews received 5 star ratings which is a total of 46549 reviews <br>
+ 
   ![nonvine_star_rating](https://user-images.githubusercontent.com/75437852/114893270-8c2ba000-9ddb-11eb-84b9-8e342cdb0804.PNG)![unpaid_percentage](https://user-images.githubusercontent.com/75437852/114893346-99488f00-9ddb-11eb-93e7-b0325cee89f4.PNG)
 <br>
 
