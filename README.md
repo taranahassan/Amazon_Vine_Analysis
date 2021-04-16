@@ -13,21 +13,45 @@ The Vine table was further filtered to identify the percentage of helpful votes 
 <br>
 ![df](https://user-images.githubusercontent.com/75437852/114807748-f3623980-9d74-11eb-8ea2-90813bee76c5.PNG)
 
-Using the filtered DataFrame above, we are able to establish a total number of reviews of 107421.  Out of those total votes:
+Using the filtered DataFrame above, we are able to establish a total number of reviews of 99046.  This nuOut of those total votes:
 
-  1.  There are 1223 Vine reviews and 106198 non-Vine reviews<br>
-  ![paid_reviews](https://user-images.githubusercontent.com/75437852/114811068-68387200-9d7b-11eb-9df3-914f6aaa9012.PNG)![unpaid_reviews](https://user-images.githubusercontent.com/75437852/114811079-6f5f8000-9d7b-11eb-9331-bc8622d0b198.PNG)
+  1.  There are 1207 Vine reviews and 97839 non-Vine reviews<br>
+![paid_reviews](https://user-images.githubusercontent.com/75437852/114918412-0d436100-9df5-11eb-8ddf-9e059482b5d3.PNG)
+![unpaid_reviews](https://user-images.githubusercontent.com/75437852/114918447-159b9c00-9df5-11eb-9bc0-c25ef542bb1d.PNG)
 <br>
-  2.  About 41% of all Vine reviews received 5 star ratings, which is 510 reviews part of the Vine program <br>
+
+  2.  About 41% of all Vine reviews received 5 star ratings, which is 509 reviews part of the Vine program <br>
    
-  ![vine_star_rating](https://user-images.githubusercontent.com/75437852/114890865-656c6a00-9dd9-11eb-8a72-a36508140bfe.PNG)![paid_percentage](https://user-images.githubusercontent.com/75437852/114890948-75844980-9dd9-11eb-8703-8981e206c667.PNG)
+![paid_percentage](https://user-images.githubusercontent.com/75437852/114918662-5398c000-9df5-11eb-8041-dcb40eb16aee.PNG)
+![vine_star_rating](https://user-images.githubusercontent.com/75437852/114918701-627f7280-9df5-11eb-8649-df8d87e782c1.PNG)
 <br>
-  3.  Approximately 43% of all non Vine reviews received 5 star ratings which is a total of 46549 reviews <br>
- 
-  ![nonvine_star_rating](https://user-images.githubusercontent.com/75437852/114893270-8c2ba000-9ddb-11eb-84b9-8e342cdb0804.PNG)![unpaid_percentage](https://user-images.githubusercontent.com/75437852/114893346-99488f00-9ddb-11eb-93e7-b0325cee89f4.PNG)
+  3.  Approximately 46% of all non Vine reviews received 5 star ratings which is a total of 45858 reviews <br>
+ ![unpaid_percentage](https://user-images.githubusercontent.com/75437852/114918794-82169b00-9df5-11eb-8dc9-4e022cfc8e41.PNG)
+![unpaid_reviews](https://user-images.githubusercontent.com/75437852/114918807-85aa2200-9df5-11eb-936a-fafbbf8767ad.PNG)
 <br>
 
 ***The DataFrames of this analysis are saved on [Vine_Review_Analysis.ipynb](https://github.com/taranahassan/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb).*** <br>
 
 # Summary: 
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+
+Based on the results, there seems to be no positivity bias for the Vine program at all.  <br>
+The overall number of reviews in this dataset (after filtering) is 99046.<br>
+![total_reviews](https://user-images.githubusercontent.com/75437852/114918923-a5d9e100-9df5-11eb-84ac-b58a018217c9.PNG)
+<br>
+And the total 5 star ratings out of all the reviews are 46367. <br>
+![star_ratings](https://user-images.githubusercontent.com/75437852/114919223-f8b39880-9df5-11eb-93c5-033951669557.PNG) <br>
+
+When comparing the difference of numbers between Vine reviews and non-Vine reviews; there is 98% more reviews that are not part of the Vine program.  The 5 star reviews within the Vine program is also sufficiently low, below 50%; which also indicates a negative bias towards the Vine program.  Even though non-Vine program's star rating is still not at 50%, but still higher by about 4 points compared to star ratings part of the Vine program.<br>
+
+To further the analysis to shed light on more facts, to have a more definitive answer if any bias for the Vine program exists, the vine table can be filtered by the "verified_purchase" column. We can extract all the reviews based on products that were actually purchased. <br>
+Below is an example the the table filtered the code following for results: <br>
+![verified_purchase](https://user-images.githubusercontent.com/75437852/114971915-60e09980-9e4b-11eb-94d0-a2fd68211e8f.PNG)
+<br>
+![revised_analysis](https://user-images.githubusercontent.com/75437852/114971589-a18be300-9e4a-11eb-9d24-f7c28d25d4d6.PNG)
+<br>
+As per the image above; the total count for reviews that were a "verified_purchase", is 54835.  Within that total, about 48% of the reviews were rated with 5 stars.  Further in the results, it shows that only 9 reviews out of total under the Vine program received 5 stars and that actually have purchased the product.
+
+
+
+
+
