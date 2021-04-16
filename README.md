@@ -49,9 +49,4 @@ Below is an example the the table filtered the code following for results: <br>
 <br>
 ![revised_analysis](https://user-images.githubusercontent.com/75437852/114971589-a18be300-9e4a-11eb-9d24-f7c28d25d4d6.PNG)
 <br>
-As per the image above; the total count for reviews that were a "verified_purchase", is 54835.  Within that total, about 48% of the reviews were rated with 5 stars.  Further in the results, it shows that only 9 reviews out of total under the Vine program received 5 stars and that actually have purchased the product.
-
-
-
-
-
+As per the image above; the total count for reviews that were a "verified_purchase", is 54835.  Within that total, about 48% of the reviews were rated with 5 stars.  Further in the results, it shows that only 9 reviews part of the Vine program received 5 stars and that actually have purchased the product.  Again, this indicates no positive bias for the Vine program, in return it only indicates that 5 star reviews on products can be received without being part of the Vine program.
