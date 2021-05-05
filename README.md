@@ -1,4 +1,4 @@
-# Amazon_Vine_Analysis
+# Amazon Vine Analysis
 
 ## Overview of the analysis: 
 
