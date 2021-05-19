@@ -4,7 +4,7 @@
 
 The Amazon Vine program is a service provided for manufacturers/publishers.  They can choose to pay for the service in order to get reviews for their products.  Vine members would then be required to provide a review.  This analysis focuses on the bias of the Vine program. <br>
 
-*For the first part of this project, the reviews were extracted from AWS's S3 bucket, transformed and then loaded into Postgres.  The script is saved as [Amazon_Reviews_ETL.ipynb](https://github.com/taranahassan/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)*
+*For the first part of this project, the reviews were extracted from AWS's S3 bucket, transformed and then loaded into Postgres.  The script is saved as [Amazon_Reviews_ETL.ipynb](https://github.com/taranahassan/Amazon_Vine_Analysis/blob/main/notebooks/Amazon_Reviews_ETL.ipynb)*
 
 ## Results: 
 
@@ -34,7 +34,7 @@ Using the filtered DataFrame we are able to establish a total number of reviews 
 ![unpaid_reviews](https://user-images.githubusercontent.com/75437852/114918807-85aa2200-9df5-11eb-936a-fafbbf8767ad.PNG)
 <br>
 <br>
-***The DataFrames of this analysis are saved on [Vine_Review_Analysis.ipynb](https://github.com/taranahassan/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb).*** <br>
+***The DataFrames of this analysis are saved on [Vine_Review_Analysis.ipynb](https://github.com/taranahassan/Amazon_Vine_Analysis/blob/main/notebooks/Vine_Review_Analysis.ipynb).*** <br>
 
 # Summary: 
 
